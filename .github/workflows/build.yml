@@ -40,19 +40,23 @@ jobs:
           chmod +x ./gradlew
           ./gradlew --no-daemon --stacktrace :assembleConversationsFreeDebug
 
-      - name: Stage universal APK (stabiler Name)
+      - name: Stage APKs (stabile Namen)
         run: |
           set -e
           UNI=$(find build/outputs/apk/conversationsFree/debug -name '*universal*debug.apk' | head -1)
-          echo "universal APK: $UNI"
+          ARM=$(find build/outputs/apk/conversationsFree/debug -name '*arm64-v8a*debug.apk' | head -1)
+          echo "universal: $UNI"; echo "arm64: $ARM"
           cp "$UNI" MoyaChat.apk
-          ls -la MoyaChat.apk
+          cp "$ARM" MoyaChat-arm64.apk
+          ls -la MoyaChat.apk MoyaChat-arm64.apk
 
       - name: Upload APK (Artefakt)
         uses: actions/upload-artifact@v4
         with:
           name: MoyaChat-debug-apk
-          path: MoyaChat.apk
+          path: |
+            MoyaChat.apk
+            MoyaChat-arm64.apk
           if-no-files-found: error
 
       # Stabile Download-URL:
@@ -63,5 +67,7 @@ jobs:
         with:
           tag_name: latest
           name: MoyaChat — neuester Build
-          files: MoyaChat.apk
+          files: |
+            MoyaChat.apk
+            MoyaChat-arm64.apk
           make_latest: true
