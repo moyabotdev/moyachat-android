@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MoyaChat monochrome (Android 13+ themed icons + Notification-Basis): einfarbig, System toent -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108"
+    android:tint="?attr/colorControlNormal">
+
+    <path
+        android:pathData="M54,20.4 L79.2,30 L79.2,55.2 Q79.2,76.8 54,88.8 Q28.8,76.8 28.8,55.2 L28.8,30 Z"
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4" />
+
+    <path
+        android:pathData="M43.2,45.6 L64.8,45.6 Q70.8,45.6 70.8,51.6 L70.8,58.8 Q70.8,64.8 64.8,64.8 L50.4,64.8 L43.2,72 L43.2,64.8 Q38.4,64.8 38.4,58.8 L38.4,51.6 Q38.4,45.6 43.2,45.6 Z"
+        android:fillColor="#FFFFFF" />
+</vector>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MoyaChat Launcher-Vordergrund: Schild + Chat-Bubble, MoyaVPN-Palette -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:pathData="M54,20.4 L79.2,30 L79.2,55.2 Q79.2,76.8 54,88.8 Q28.8,76.8 28.8,55.2 L28.8,30 Z"
+        android:fillColor="#2C6BED"
+        android:strokeColor="#3DDC97"
+        android:strokeWidth="2.5" />
+
+    <path
+        android:pathData="M43.2,45.6 L64.8,45.6 Q70.8,45.6 70.8,51.6 L70.8,58.8 Q70.8,64.8 64.8,64.8 L50.4,64.8 L43.2,72 L43.2,64.8 Q38.4,64.8 38.4,58.8 L38.4,51.6 Q38.4,45.6 43.2,45.6 Z"
+        android:fillColor="#FFFFFF" />
+
+    <path
+        android:pathData="M44.7,55.2 a2.7,2.7 0 1,0 5.4,0 a2.7,2.7 0 1,0 -5.4,0 Z"
+        android:fillColor="#2C6BED" />
+    <path
+        android:pathData="M51.9,55.2 a2.7,2.7 0 1,0 5.4,0 a2.7,2.7 0 1,0 -5.4,0 Z"
+        android:fillColor="#2C6BED" />
+    <path
+        android:pathData="M59.1,55.2 a2.7,2.7 0 1,0 5.4,0 a2.7,2.7 0 1,0 -5.4,0 Z"
+        android:fillColor="#3DDC97" />
+</vector>

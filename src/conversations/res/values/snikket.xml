@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="snikket_intro"><b>MoyaChat</b> is a secure, privacy-friendly chat app.\n\nTo get started, you need an invitation.\n\nIf you already have an invitation link, now is a good time to open it and tap the ‘open the app’ button!</string>
+    <string name="learn_more">Learn more</string>
+</resources>
